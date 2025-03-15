@@ -1,0 +1,9 @@
+.banner-imagem {
+    width: 100%; /* Ocupa toda a largura */
+  }
+  
+  .banner-imagem img {
+    width: 100%; /* A imagem ocupa toda a largura do container */
+    height: auto; /* Mantém a proporção */
+    display: block; /* Remove espaços extras */
+  }

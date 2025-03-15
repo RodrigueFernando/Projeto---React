@@ -1,0 +1,46 @@
+.produto {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 300px; /* Ajuste a largura conforme necessário */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .produto-imagem {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
+  }
+  
+  .produto-nome {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .produto-secao,
+  .produto-marca {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
+  
+  .produto-preco {
+    font-size: 1.2em;
+    color: #007bff; /* Cor azul para destacar o preço */
+    margin-bottom: 8px;
+  }
+  
+  .produto-condicao {
+    font-size: 1em;
+    font-style: italic;
+    color: #555;
+  }
+  .lista-produtos {
+    display: flex; /* Adicione flexbox para organizar os produtos lado a lado */
+    flex-wrap: wrap; /* Permita que os produtos quebrem para a próxima linha se necessário */
+    justify-content: flex-start; /* Alinhe os produtos à esquerda */
+  }
