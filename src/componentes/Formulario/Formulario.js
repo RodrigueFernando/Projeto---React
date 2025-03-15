@@ -94,4 +94,4 @@ const Formulario = ({ aoNovoProduto }) => {
   );
 };
 
-export default Formulario;
+export default Formulario ;
