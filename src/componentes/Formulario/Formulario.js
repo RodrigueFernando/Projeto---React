@@ -4,7 +4,13 @@ import CampoTexto from "../CampoTexto/CampoTexto";
 import ListaSuspensa from "../ListaSuspensa/ListaSuspensa";
 
 const Formulario = ({ aoNovoProduto }) => {
-  const marcas = ["Computadores", "Acessórios", "Impressoras", "Games", "Gadgets"];
+  const marcas = [
+    "Computadores",
+    "Acessórios",
+    "Impressoras",
+    "Games",
+    "Gadgets",
+  ];
   const secoes = ["Hp", "Dell", "Positivo", "Asus", "Xing Ling Generico"];
 
   const [secao, setSecao] = useState("");
