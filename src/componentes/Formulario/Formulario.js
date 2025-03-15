@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Formulario.css";
 import CampoTexto from "../CampoTexto/CampoTexto";
 import ListaSuspensa from "../ListaSuspensa/ListaSuspensa";
+//import
 
 const Formulario = ({ aoNovoProduto }) => {
   const marcas = [
